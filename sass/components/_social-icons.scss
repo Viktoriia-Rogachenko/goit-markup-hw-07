@@ -8,6 +8,8 @@
   fill: #afb1b8;
 }
 
-.social-icons__item:not(:last-child) {
-  margin-right: 10px;
+.social-icons__item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
